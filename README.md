@@ -11,9 +11,9 @@
 
 # 📖 About
 
-This repository contains my implementations and notes on **Data Structures and Algorithms (DSA)** in **Java**.
+This repository contains my implementations and notes on **Data Structures and Algoritms (DSA)** in **Java**.
 
-It was created as part of my Computer Science journey to strengthen problem-solving skills, understand algorithm design, and build a solid foundation for Software Engineering, Artificial Intelligence, and Agentic AI.
+It was created as part of my Computer Science journey to strengthen problem-solving skils, understand algorithm design, and build a solid foundation for Software Engineering, Artificial Intelligence, and Agentic AI.
 
 Each topic includes:
 
