@@ -5,7 +5,7 @@
  * Space Complexity: O(1)
  */
 
-public class Traversal {
+public class Traversal1 {
 
     static class Node {
         int data;
@@ -55,7 +55,7 @@ public class Traversal {
 
     public static void main(String[] args) {
 
-        Traversal list = new Traversal();
+        Traversal1 list = new Traversal1();
 
         list.insert(10);
         list.insert(20);
