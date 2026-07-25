@@ -11,3 +11,12 @@ public class ArrayBasics {
         }
     }
 }
+// Output:
+// Array Basics
+// Length: 5
+// Elements:
+// Index 0 = 10
+// Index 1 = 20
+// Index 2 = 30
+// Index 3 = 40
+// Index 4 = 50
