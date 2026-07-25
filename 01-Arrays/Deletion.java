@@ -41,5 +41,5 @@ public class Deletion {
 // Output:
 // Before Deletion:
 // 10 20 30 40 50 
-// After Deletion: 
+// After Deletion:
 // 10 20 40 50 
