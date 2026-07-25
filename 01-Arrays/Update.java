@@ -27,3 +27,8 @@ public class Update {
         System.out.println();
     }
 }
+// output:
+// Before Update:
+// 10 20 30 40 50 
+// After Update:
+// 10 20 99 40 50 
