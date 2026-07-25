@@ -38,3 +38,8 @@ public class Deletion {
         System.out.println();
     }
 }
+// Output:
+// Before Deletion:
+// 10 20 30 40 50 
+// After Deletion:
+// 10 20 40 50 
