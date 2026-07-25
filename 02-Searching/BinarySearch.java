@@ -40,3 +40,5 @@ public class BinarySearch {
 
     }
 }
+// output:
+// Element found at index: 4

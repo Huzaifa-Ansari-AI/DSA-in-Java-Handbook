@@ -29,3 +29,5 @@ public class LinearSearch {
 
     }
 }
+// output:
+// Element found at index: 2
