@@ -1,33 +1,24 @@
 /**
- * Singly Linked List
+ * Linked List Searching
  *
- * Operations:
- * - Insertion at End
- * - Traversal
- * - Searching
- *
- * Time Complexity:
- * Traversal : O(n)
- * Search    : O(n)
- * Insertion : O(n)
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
  */
 
-public class SinglyLinkedList {
+public class Searching1 {
 
     static class Node {
-
         int data;
         Node next;
 
         Node(int data) {
             this.data = data;
-            this.next = null;
         }
     }
 
     Node head;
 
-    // Insert at end
+    // Insert node at the end
     public void insert(int data) {
 
         Node newNode = new Node(data);
@@ -46,20 +37,7 @@ public class SinglyLinkedList {
         temp.next = newNode;
     }
 
-    // Traverse
-    public void display() {
-
-        Node temp = head;
-
-        while (temp != null) {
-            System.out.print(temp.data + " -> ");
-            temp = temp.next;
-        }
-
-        System.out.println("null");
-    }
-
-    // Search
+    // Search for an element
     public boolean search(int key) {
 
         Node temp = head;
@@ -78,26 +56,21 @@ public class SinglyLinkedList {
 
     public static void main(String[] args) {
 
-        SinglyLinkedList list = new SinglyLinkedList();
+        Searching1 list = new Searching1();
 
         list.insert(10);
         list.insert(20);
         list.insert(30);
         list.insert(40);
 
-        System.out.println("Linked List:");
-        list.display();
-
         int key = 30;
 
         if (list.search(key)) {
-            System.out.println(key + " found.");
+            System.out.println(key + " found in the linked list.");
         } else {
             System.out.println(key + " not found.");
         }
     }
 }
-// Output:
-// Linked List:
-// 10 -> 20 -> 30 -> 40 -> null
-// 30 found.
+
+// 30 found in the linked list.

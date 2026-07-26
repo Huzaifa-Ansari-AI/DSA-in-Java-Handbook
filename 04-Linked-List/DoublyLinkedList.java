@@ -98,3 +98,8 @@ public class DoublyLinkedList {
         list.displayBackward();
     }
 }
+// Output:
+// Forward Traversal:
+// 10 <-> 20 <-> 30 <-> 40 <-> null
+// Backward Traversal:
+// 40 <-> 30 <-> 20 <-> 10 <-> null

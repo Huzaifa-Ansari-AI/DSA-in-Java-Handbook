@@ -1,13 +1,16 @@
-import org.w3c.dom.Node;
-
 /**
- * Linked List Traversal
+ * Linked List Insertion
  *
- * Time Complexity: O(n)
- * Space Complexity: O(1)
+ * Operations:
+ * - Insert at Beginning
+ * - Insert at End
+ *
+ * Time Complexity:
+ * Beginning : O(1)
+ * End       : O(n)
  */
 
-public class Traversal1 {
+public class Insertion1 {
 
     static class Node {
         int data;
@@ -20,7 +23,15 @@ public class Traversal1 {
 
     Node head;
 
-    public void insert(int data) {
+    public void insertAtBeginning(int data) {
+
+        Node newNode = new Node(data);
+
+        newNode.next = head;
+        head = newNode;
+    }
+
+    public void insertAtEnd(int data) {
 
         Node newNode = new Node(data);
 
@@ -38,12 +49,7 @@ public class Traversal1 {
         temp.next = newNode;
     }
 
-    public void traverse() {
-
-        if (head == null) {
-            System.out.println("Linked List is empty.");
-            return;
-        }
+    public void display() {
 
         Node temp = head;
 
@@ -57,17 +63,16 @@ public class Traversal1 {
 
     public static void main(String[] args) {
 
-        Traversal1 list = new Traversal1();
+        Insertion1 list = new Insertion1();
 
-        list.insert(10);
-        list.insert(20);
-        list.insert(30);
-        list.insert(40);
+        list.insertAtBeginning(20);
+        list.insertAtBeginning(10);
 
-        System.out.println("Traversing Linked List:");
-        list.traverse();
+        list.insertAtEnd(30);
+        list.insertAtEnd(40);
+
+        list.display();
     }
 }
 // Output:
-// Traversing Linked List:
 // 10 -> 20 -> 30 -> 40 -> null
