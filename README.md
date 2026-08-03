@@ -27,7 +27,7 @@ The goal of this repository is to serve as both a learning resource and a profes
 
 ---
 
-# 🎯 Objectives
+# 🎯 Objectives 
 
 - Learn DSA from fundamentals to advanced topics
 - Build strong problem-solving skills
@@ -343,7 +343,7 @@ Passionate about
 
 ## 📬 Connect With Me
 
-- GitHub: https://github.com/huzi.7001
+- GitHub: https://github.com/huzi7001
 - LinkedIn: https://www.linkedin.com/in/huzaifa-ansari7001
 - YouTube: www.youtube.com/@AIwithHuzaifaAnsari
 - Instagram: https://www.instagram.com/aiwithhuzaifaansari
