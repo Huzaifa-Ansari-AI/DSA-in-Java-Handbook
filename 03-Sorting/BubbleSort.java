@@ -2,7 +2,7 @@
  * Bubble Sort
  * 
  * Time Complexity:
- * Best Case    : O(n)   (Optimized)
+ * Best Case    : O(n)   (Optimized) 
  * Average Case : O(n²)
  * Worst Case   : O(n²)
  *
