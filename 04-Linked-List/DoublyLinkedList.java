@@ -1,5 +1,5 @@
 /**   
- * Doubly Linked List   
+ * Doubly Linked List    
  *
  * Operations:
  * - Insertion at End
