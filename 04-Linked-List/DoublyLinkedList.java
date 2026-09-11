@@ -1,7 +1,7 @@
 /**    
- * Doubly Linked List      
+ * Doubly Linked List
  *  
- * Operations:
+ * Operation:
  * - Insertion at End
  * - Forward Traversal
  * - Backward Traversal
