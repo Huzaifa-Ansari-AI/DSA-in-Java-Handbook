@@ -1,5 +1,5 @@
 /**
- * Linked List Deletion  
+ * Linked List Deletion   
  * 
  * Operations:
  * - Delete from Beginning 
