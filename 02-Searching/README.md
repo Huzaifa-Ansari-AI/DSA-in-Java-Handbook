@@ -1,5 +1,5 @@
 # Searching Algorithms in Java
-  
+   
 ## Overview 
 
 Searching is the process of finding a specific element within a collection of data.
