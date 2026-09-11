@@ -4,7 +4,7 @@
  * Operations:
  * - Insertion at End
  * - Forward Traversal
- * - Backward Traversal 
+ * - Backward Traversal
  *
  * Time Complexity:
  * Traversal : O(n)
