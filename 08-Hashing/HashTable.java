@@ -1,7 +1,7 @@
 /**
  * Hash Table using Linear Probing
  *
- * Hash Function:
+ * Hash Function: 
  * index = key % SIZE
  *
  * Operations:
