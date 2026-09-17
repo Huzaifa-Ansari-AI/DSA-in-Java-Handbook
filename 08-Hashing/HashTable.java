@@ -6,7 +6,7 @@
  *
  * Operations:
  * - Insert
- * - Search
+ * - Search  
  * - Display
  *
  * Time Complexity (Average):
