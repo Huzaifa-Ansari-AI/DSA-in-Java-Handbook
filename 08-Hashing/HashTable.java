@@ -1,6 +1,6 @@
 /**
  * Hash Table using Linear Probing
- *
+ * 
  * Hash Function:
  * index = key % SIZE
  *
