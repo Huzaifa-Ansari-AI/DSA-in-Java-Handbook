@@ -1,7 +1,7 @@
 # Hashing in Java  
 
 ## Overview
-
+ 
 **Hashing** is a technique used to store and retrieve data efficiently using a **hash function**.
 
 A hash function converts a key into an array index, allowing fast insertion, searching, and deletion.
