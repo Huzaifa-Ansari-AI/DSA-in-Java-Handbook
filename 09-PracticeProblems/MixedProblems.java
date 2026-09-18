@@ -1,5 +1,5 @@
 /**
- * Mixed DSA Practice Problems 
+ * Mixed DSA Practice Problems
  *
  * This program demonstrates the most important DSA operations 
  * in one file using Java.
